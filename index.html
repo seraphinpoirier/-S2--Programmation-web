@@ -5,8 +5,11 @@
         <link rel="stylesheet" href="indexformatting.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Modak&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">    </head>
+        <link href="https://fonts.googleapis.com/css2?family=Modak&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">    
+        
+    </head>
     <body>
+        <script src="indexinteractive.js"></script>
         <select>
             <option value="">language</option>
             <option value="français">FR</option>
@@ -29,6 +32,18 @@
             <div id="photo2" class="pic">
                 <img src="img/image1.jpg" alt="image" class="img1">    
             </div>
+        </div>
+        <h3>maintenant parlons albums !</h3>
+        <button class="controls"id="previous">Previous</button>
+        <button class="controls" id="pause">Pause</button>
+        <button class="controls" id="next">Next</button>
+            <ul id="slides">
+                <li class="slide showing">Slide 1</li>
+                <li class="slide">Slide 2</li>
+                <li class="slide">Slide 3</li>
+                <li class="slide">Slide 4</li>
+                <li class="slide">Slide 5</li>
+            </ul>
         </div>
     </body>
 </html>
